@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android Labs</string>
-    <string name="hello_message">Bonjour!</string>
-    <string name="ButtomText">I\'m aaaaaaaaaaaaaaaaaaaaa buttom</string>
+    <string name="hello_message">Dobar dan!</string>
+    <string name="ButtomText">Ja sam dugme</string>
+    <string name="text">Login</string>
+    <string name="login">login ime</string>
+    <string name="Pasword">pasvord</string>
+    <string name="pasword">pasvord</string>
+    <string name="radB">Radio dugme</string>
+    <string name="chackB">Cek dugme</string>
+    <string name="switchB">Sta ovo dugme radi?</string>
 </resources>
