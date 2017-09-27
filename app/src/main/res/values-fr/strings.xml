@@ -10,4 +10,8 @@
     <string name="radB">Radio dugme</string>
     <string name="chackB">Cek dugme</string>
     <string name="switchB">Sta ovo dugme radi?</string>
+    <string name="dialog_message">Da li zelis da zavrsis aktivnost?</string>
+    <string name="ok">Da</string>
+    <string name="dialog_title">CheckBox</string>
+    <string name="cancel">Ne</string>
 </resources>
