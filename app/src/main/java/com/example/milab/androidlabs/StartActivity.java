@@ -42,12 +42,6 @@ public class StartActivity extends Activity {
                 Toast toast = Toast.makeText(StartActivity.this , text, LENGTH_SHORT); //this is the ListActivity
                 toast.show(); //display your message box
 
-
-
-                // The user picked a contact.
-                // The Intent's data Uri identifies which contact was selected.
-
-                // Do something with the contact here (bigger example below)
             }
         }
     }
