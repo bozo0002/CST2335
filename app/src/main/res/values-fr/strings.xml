@@ -14,4 +14,7 @@
     <string name="ok">Da</string>
     <string name="dialog_title">CheckBox</string>
     <string name="cancel">Ne</string>
+    <string name="chat">Pocni caskanje</string>
+    <string name="send">Poslati</string>
+    <string name="Buttom">Login</string>
 </resources>
