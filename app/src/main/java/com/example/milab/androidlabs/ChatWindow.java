@@ -47,7 +47,7 @@ public class ChatWindow extends Activity {
                 String tipedMessage = message1.getText().toString();
                 if (!tipedMessage.isEmpty()){
                 chatMessage.add(tipedMessage);
-                System.out.println(tipedMessage);
+                ////System.out.println(tipedMessage);
                     message1.setText("");
                 }
                 messageAdapter.notifyDataSetChanged(); //this restarts the process of getCount()/getView()

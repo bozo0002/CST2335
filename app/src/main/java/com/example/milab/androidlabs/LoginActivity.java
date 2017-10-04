@@ -50,8 +50,6 @@ public class LoginActivity extends Activity {
 
     }
 
-
-
     protected void onStart() {
         super.onStart();
         Log.i(LoginActivity, "In onStart()");
