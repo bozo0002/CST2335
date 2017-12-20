@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class ChatDatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "newDatabase";
-    public static final int VERSION_NUM = 1;
+    public static final int VERSION_NUM = 2; // change version_number and call onUpadate()
     public final static String KEY_ID = "id";
     public final static String KEY_MESSAGE = "text_message";
     public final static String TABLE_NAME = "Message";
@@ -29,7 +29,7 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+    public void  onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         //drop tble is eists
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         //create new table

@@ -16,7 +16,7 @@ import static android.widget.Toast.LENGTH_SHORT;
 public class StartActivity extends Activity {
     protected static final String StartActivity = "StartActivity";
     protected  final int requesCode = 10;
-    protected  Button chat;
+    protected  Button chat, weather;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i(StartActivity, "In onCreate()");
@@ -37,6 +37,24 @@ public class StartActivity extends Activity {
             public void onClick(View v) {
                 Log.i(StartActivity, "User clicked Start Chat");
                 Intent i = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(i);
+            }
+        });
+        weather =(Button) findViewById(R.id.button5);
+        weather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(StartActivity, "User clicked Weather Forecast");
+                Intent i = new Intent(StartActivity.this, WeatherForecast.class);
+                startActivity(i);
+            }
+        });
+        Button toolbar =(Button)findViewById(R.id.toolbar);
+        toolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(StartActivity, "User clicked Test Toolbar");
+                Intent i = new Intent(StartActivity.this, TestToolbar.class);
                 startActivity(i);
             }
         });

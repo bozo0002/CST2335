@@ -17,6 +17,23 @@
     <string name="chat">Start Chat</string>
     <string name="send">Send</string>
     <string name="edit"> </string>
+    <string name="btWeather">Weather Forecast</string>
+    <string name="ct">Curent temperature</string>
+    <string name="mxt">Max temperature</string>
+    <string name="mint">Min temperature</string>
+    <string name="messageHere">MessageHere</string>
+    <string name="messageTextID">ID=</string>
+    <string name="toolbat">Test Toolbar</string>
+    <string name="delete_this_message">DELETE THIS MESSAGE</string>
+    <string name="username">New Message</string>
+    <string name="signin">OK</string>
+    <string name="ook">OK</string>
+    <string name="ddialog_title">Do you want to go back?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="title_activity_">Activity</string>
 
 
 </resources>
